@@ -17,7 +17,7 @@ services:
 
   node_exporter:
     image: prom/node-exporter:latest
-    container_name: lab9_node-exporter
+    container_name: node-exporter
     restart: unless-stopped
     pid: "host"
     ports:
